@@ -82,5 +82,5 @@ model = YOLO(r'models/detail_best.pt')
 @app.post("/")
 async def end(items:str):
     
-    main(model, r'D:\codes\OCR\Input_images\IMG-20240201-WA0022.jpg')
+    main(model, r'Input_images/IMG-20240201-WA0022.jpg')
     
